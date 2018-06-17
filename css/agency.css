@@ -3,6 +3,33 @@
  * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
+
+/*Bootstrap */
+@font-face{
+  font-family:cg-icons;
+  src:url(/assets/fonts/cg-icons.eot?z5qas7);
+  src:url(/assets/fonts/cg-icons.eot?z5qas7#iefix) format('embedded-opentype'),url(/assets/fonts/cg-icons.ttf?z5qas7) format('truetype'),url(/assets/fonts/cg-icons.woff?z5qas7) format('woff'),url(/assets/fonts/cg-icons.svg?z5qas7#cg-icons) format('svg');
+  font-weight:400;
+  font-style:normal;
+}
+i.cg{
+  font-family:cg-icons!important;
+  speak:none;
+  font-style:normal;
+  font-weight:400;
+  font-variant:normal;
+  text-transform:none;
+  line-height:1;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+.cg-artstation:before{
+  content:"\e900";
+}
+.cg-polycount:before{
+  content:"\e901";
+}
+
 body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -172,10 +199,10 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("../img/StreakingLogoBanner.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: center center;
+  background-position: 50% 50%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -596,9 +623,31 @@ header.masthead .intro-text .intro-heading {
   margin-top: 0;
 }
 
+.contact-us{
+    height: 300px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contact-us h3{
+    text-shadow: 2px 2px #000000;
+    font-size:  70px;
+    font-weight: 500;
+    color:white;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.contact-us img{
+  width: 325px;
+  height: 325px;
+  border: 2px solid #fff;
+}
+
 section#contact {
   background-color: #212529;
-  background-image: url("../img/map-image.png");
+  background-image: url("../img/team/TeamPhotoSansBrian.jpg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -688,7 +737,7 @@ ul.social-buttons li a {
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
-  color: white;
+  color: lightblue;
   border-radius: 100%;
   outline: none;
   background-color: #212529;
