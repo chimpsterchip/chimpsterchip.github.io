@@ -647,9 +647,9 @@ header.masthead .intro-text .intro-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../img/team/TeamPhotoSansBrian.jpg");
+  background-image: url("../img/team/YouSuckAtPhotoshop.png");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center 100%;
 }
 
 section#contact .section-heading {
