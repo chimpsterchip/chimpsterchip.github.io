@@ -68,7 +68,7 @@ section {
 section h2.section-heading {
   font-size: 40px;
   margin-top: 0;
-  margin-bottom: 15px;
+  margin-bottom: 15px;    
 }
 
 section h3.section-subheading {
@@ -351,10 +351,12 @@ header.masthead .intro-text .intro-heading {
 .portfolio-modal .modal-content h2 {
   font-size: 3em;
   margin-bottom: 15px;
+    text-align: center;
 }
 
 .portfolio-modal .modal-content p {
   margin-bottom: 30px;
+    text-align: justify;
 }
 
 .portfolio-modal .modal-content p.item-intro {
@@ -362,11 +364,12 @@ header.masthead .intro-text .intro-heading {
   font-style: italic;
   margin: 20px 0 30px;
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-align: center;
 }
 
 .portfolio-modal .modal-content ul.list-inline {
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 30px;    
 }
 
 .portfolio-modal .modal-content img {
